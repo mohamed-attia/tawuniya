@@ -1,0 +1,208 @@
+.side-menu {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(9, 30, 66, 0.06);
+    border-radius: 0px 0px 60px 0px;
+    padding: 60px 40px
+}
+
+.side-menu-rtl {
+    border-radius: 0px 0px 0px 60px !important;
+}
+
+.side-menu-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-section {
+    display: flex;
+}
+
+.logo-content {
+    padding: 0 20px;
+}
+
+.logo-content h4 {
+    font-size: 15px;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+.logo-content span {
+    cursor: pointer;
+    font-size: 12px;
+
+}
+
+.logo-content span svg {
+    color: #F47B20;
+    padding: 0 5px;
+}
+
+.user-name {
+    width: 45px;
+    height: 45px;
+    background: #b5b6b8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/*Start vertical Wizard*/
+
+.verticalwiz {
+    margin-top: 75px;
+    display: block;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+
+.verticalwiz a {
+    text-decoration: none;
+}
+
+.verticalwiz a:hover,
+.verticalwiz a:active,
+.verticalwiz a:focus {
+    text-decoration: none
+}
+
+.verticalwiz li {
+    display: block;
+    height: 100%;
+    min-height: 90px;
+    max-width: 215px;
+    width: 100%;
+}
+
+.verticalwiz li:last-child:before {
+    content: "";
+    border-top: 0;
+}
+
+.verticalwiz li:before {
+    border-top: 3px solid #f2f3f5;
+    content: "";
+    display: block;
+    font-size: 0;
+    overflow: auto;
+    position: relative;
+    top: 48px;
+    ;
+    right: -173px;
+    width: 100%;
+    z-index: 1;
+    transform: rotate(90deg) translateY(87px);
+    left: 0;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.verticalwiz li.complete .step {
+    background: #f47b20;
+    padding: 1px 6px;
+    border: 3px solid #55606E
+}
+
+.verticalwiz li .step i {
+    font-size: 10px;
+    font-weight: 400;
+    position: relative;
+    top: -1.5px
+}
+
+.verticalwiz li .step {
+    background: #B2B5B9;
+    color: #fff;
+    display: inline;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 12px;
+    padding: 7px 13px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    transition: all .1s linear 0s
+}
+
+.verticalwiz li.active .step,
+.verticalwiz li.active.complete .step {
+    background: #f47b20;
+    color: #fff;
+    font-weight: 700;
+    padding: 7px 13px;
+    font-size: 15px;
+    border-radius: 50%;
+}
+
+.verticalwiz li.complete .title,
+.verticalwiz li.active .title {
+    color: #2B3D53
+}
+
+.verticalwiz li .title {
+    display: inline;
+    font-size: 13px;
+    position: relative;
+    top: 0;
+    color: #4C565C;
+    font-weight: bold;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .copyright p {
+    font-size: 12px;
+    color: #455560;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.contact .terms p {
+    font-size: 12px;
+    color: #9AA2AF;
+    margin: 1px
+}
+
+.contact .stores {
+    display: flex;
+}
+.contact .stores .store svg{
+    font-size: 14px;
+    color: #b5b6b8;
+}
+.contact .stores .store{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 5px;
+    box-shadow: 0px 4px 10px rgba(9, 30, 66, 0.06);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media all and (max-width: 576px) {
+    .side-menu {
+      display: none;
+    }
+  }

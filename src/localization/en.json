@@ -1,0 +1,13 @@
+{
+    "title":"flower",
+    "menu":"menu",
+    "header":{
+        "help":"Need Help?"
+    },
+    "wizard":{
+        "registeration":"Registeration",
+        "members-details":"Members Details",
+        "Policy":"Policy",
+        "payment":"Payment"
+    }
+}

@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 40px;
+    padding-top: 60px;
+}
+
+.help-btn {
+    display: flex;
+    background: #F47B20;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 8px 21px;
+    border-radius: 100px;
+    flex-direction: row-reverse;
+}
+
+.help-btn span {
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 20px;
+}
+
+.icons .icon {
+    background: #fff;
+    margin: 0 5px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    box-shadow: 0px 4px 10px rgba(9, 30, 66, 0.06);
+    justify-content: center;
+    align-items: center;
+}
+
+.change-lang {
+    display: flex;
+    align-items: center;
+}
+
+.header-mobile {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5px;
+}
+
+.header-mobile button {
+    background: #818b9b;
+    border-color: #818b9b;
+    font-size: 10px;
+}
+
+.wizard-mobile {
+    display: flex;
+    align-items: center;
+}
+
+.wizard-mobile .counter {
+    width: 25px;
+    height: 25px;
+    background: #679ab4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.wizard-mobile .title {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+.wizard-mobile .progress {
+    width: 165px;
+    height: 3px;
+    --bs-progress-bar-bg: #f68d24;
+    margin: 0 5px;
+}
+
+@media all and (max-width: 576px) {
+    .header{
+      display: none;
+    }
+
+  }
+@media all and (min-width: 576px) {
+
+    .header-mobile {
+        display: none;
+    }
+  }

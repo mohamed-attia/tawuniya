@@ -1,0 +1,13 @@
+{
+    "title":"الورد",
+    "menu":"القائمة",
+    "header":{
+        "help":"تحتاج مساعدة"
+    },
+    "wizard":{
+        "registeration":"التسجيل",
+        "members-details":"تفاصيل العضوية",
+        "Policy":"الشروط",
+        "payment":"الدفع"
+    }
+}
